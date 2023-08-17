@@ -53,7 +53,7 @@ export default function DestinationList() {
         <>
             
             {dest.map((destination) => (
-                <div className="p-4 border border-slate-300 mt-5 rounded flex justify-between gap-5">
+                <div key={destination.id} className="p-4 border border-slate-300 mt-5 rounded flex justify-between gap-5">
                     <div>
                        
                  
